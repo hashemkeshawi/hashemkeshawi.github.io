@@ -2,11 +2,18 @@
 #homeCss{
 	background-image: url("background1.jpg" );
 	background-repeat:no-repeat;
-	background-size: 5000px 800px;
+	background-size: 1500px ;
+	background-attachment: fixed;
 }
-#moreCss{
+#top1{
 	background-image: url("meObacityGood.png");
 	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: 600px;
+	background-color: powderblue;
+	padding:36px;
+	padding-bottom: 42px;
+	margin: -8px;
 }
 #header1{
 	margin-top:50px;
@@ -21,25 +28,97 @@
 	width:150px;
 	height:170px;
 }#left1{
+	margin-left:-6px;
 	margin-top: -520px;
 }
    a#moreimg:hover{
 	margin-left: 40px;
 	opacity: .5;
-	background-color: #555555;
+
 	
+}
+div.desc{
+	font-size:35px;
 }
 	
 #bottom1{
+	width: 1342px;
 	font-size:35px;
-	border: 1px solid #232323;
-	background-color: #232323;
+	border: 1px solid #454545;
+	background-color: #454545;
 	height: 160px;
-	margin-top: -170px -40px 0px -40px;
+	margin: 155px -40px 0px -6px;
+	color : white;
+	text-align: center;
 }
 #bottomimg{
 	margin-top: -105px;
 	 width:125px;
 	 height:150px;
-	 margin-left:800px;
+	 margin-left:700px;
 }
+#I1,#I2{
+	font-size: 210%;
+	margin:20px;
+	margin-top:130px;
+	padding: 50px;
+	background-color:#9acd32;
+	border-right: 30px solid green;
+	width:600px;
+}
+a{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
+#I1:hover, #I2:hover{
+	background-color:#78ab10;
+	padding:65px;
+	width:750px;
+}
+#fresh{
+	background-image: url("meFreshman.png");
+	background-attachment:fixed;
+	background-position:bottom right;
+	background-repeat:no-repeat;
+	background-size:350px;
+	font-size:60px;
+	margin-bottom: -15px;
+}
+#fresh1{
+	font-size:50px;
+	background-color: tomato;
+	padding:15px;
+	margin:-6px;
+	margin-right: -5px;
+}
+#fText{
+	padding-bottom:20px;
+}
+#sText{
+	padding-left: 500px;
+	
+}
+#self{
+	background-image: url("meFree.png");
+	background-attachment:fixed;
+	background-position:bottom left;
+	background-repeat:no-repeat;
+	background-size:350px;
+	font-size:60px;
+	margin-top:-50px;
+}
+#self1{
+	font-size:50px;
+	background-color: tomato;
+	padding:15px;
+	margin:-6px;
+	margin-right:-5px;
+	
+}
+	
+	
+    
+	
+	
