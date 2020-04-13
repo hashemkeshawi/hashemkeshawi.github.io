@@ -1,7 +1,11 @@
-body{
+
+#homeCss{
 	background-image: url("background1.jpg" );
 	background-repeat:no-repeat;
 	background-size: 5000px 800px;
+}
+#moreCss{
+	backgroun-image: url("meObacityGood.png");
 }
 #header1{
 	margin-top:50px;
