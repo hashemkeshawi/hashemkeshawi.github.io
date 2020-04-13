@@ -6,6 +6,7 @@
 }
 #moreCss{
 	background-image: url("meObacityGood.png");
+	background-repeat: no-repeat;
 }
 #header1{
 	margin-top:50px;
