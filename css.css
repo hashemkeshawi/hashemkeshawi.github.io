@@ -79,13 +79,15 @@ a:visited{
 	width:750px;
 }
 #fresh{
-	background-image: url("meFreshman.png");
-	background-attachment:fixed;
-	background-position:bottom right;
-	background-repeat:no-repeat;
-	background-size:350px;
+	background-image: url("meFreshman.png") ,url("iugBackground1.jpg" );
+	background-attachment:fixed ,  fixed;
+	background-position:bottom right , center;
+	background-repeat:no-repeat , no-repeat;
+	background-size:350px  , cover;
 	font-size:60px;
 	margin-bottom: -15px;
+	background-color: powderblue;
+	opacity: 1;
 }
 #fresh1{
 	font-size:50px;
@@ -95,7 +97,10 @@ a:visited{
 	margin-right: -5px;
 }
 #fText{
+	background-color: rgba(0, 149, 237, 0.35);
 	padding-bottom:20px;
+	margin-right: 300px;
+
 }
 #sText{
 	padding-left: 500px;
