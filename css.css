@@ -25,10 +25,17 @@
 	font-size:45px;
 	text-align:center
 }#centerimg{
+	border: 1px solid white;
 	margin-left:20px;
 	width:150px;
 	height:170px;
-}#left1{
+	border-radius: 50%;
+}
+#centerimg:hover{
+	opacity: 0.88;
+	border-radius: 0%;
+}
+#left1{
 	margin-left:-6px;
 	margin-top: -520px;
 }
