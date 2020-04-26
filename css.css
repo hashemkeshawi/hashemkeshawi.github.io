@@ -5,6 +5,7 @@
 	background-size: 1500px ;
 	background-attachment: fixed;
 }
+
 #top1{
 	background-attachment:fixed;
 	background-image: url("meObacityGood.png");
@@ -17,27 +18,42 @@
 	margin: -8px;
 }
 #header1{
-	margin-top:50px;
-	margin-left:50px;
-	font-size: 25px;
-}#center1{
-	margin-left:200px;
-	font-size:45px;
+	position: sticky;
+	top:0px;
+	margin-top:2.5%;
+	margin-left:5%;
+	padding-bottom: 3%;
+	font-size: 2.5vw;
+	display: block;
+}div.center1{
+	position: absolute;
+	right: 15%;
+	display: block;
+	font-size:3.5vw;
 	text-align:center
-}#centerimg{
+}#allCenter{
+	display: block;
+}
+#centerimg{
 	border: 1px solid white;
-	margin-left:20px;
+	#margin-left:20px;
 	width:150px;
 	height:170px;
-	border-radius: 50%;
+	border-radius: 0%;
 }
 #centerimg:hover{
 	opacity: 0.88;
-	border-radius: 0%;
+	border-radius:50%;
 }
 #left1{
-	margin-left:-6px;
-	margin-top: -520px;
+	position: absolute;
+	left:0px;
+	display: inline;
+	#margin-left:-6px;
+	#margin-top: -520px;
+}#leftimg{
+	width:20vw;
+	height: 32vw;
 }
    a#moreimg:hover{
 	margin-left: 40px;
@@ -50,29 +66,31 @@ div.desc{
 }
 	
 #bottom1{
-	width: 1342px;
+	max-width:1500px;
 	font-size:35px;
 	border: 1px solid #454545;
 	background-color: #454545;
 	height: 160px;
-	margin: 155px -40px 0px -6px;
+	position: static;
+	margin-top:100%;
 	color : white;
 	text-align: center;
 }
 #bottomimg{
+	display:inline;
 	margin-top: -105px;
 	 width:125px;
 	 height:150px;
-	 margin-left:700px;
+	 margin-left:70%;
 }
 #I1,#I2{
 	font-size: 210%;
-	margin:20px;
-	margin-top:130px;
-	padding: 50px;
+	margin:5%;
+	margin-top:10%;
+	padding: 5%;
 	background-color:#9acd32;
 	border-right: 30px solid green;
-	width:600px;
+	width:45%;
 }
 a{
 	text-decoration: none;
@@ -82,8 +100,8 @@ a:visited{
 }
 #I1:hover, #I2:hover{
 	background-color:#78ab10;
-	padding:65px;
-	width:750px;
+	padding:5%;
+	width:55%;
 }
 #fresh{
 	background-image: url("meFreshman.png") ,url("iugBackground1.jpg" );
