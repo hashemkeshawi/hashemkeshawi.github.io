@@ -30,13 +30,13 @@
 	right: 15%;
 	display: block;
 	font-size:3.5vw;
-	text-align:center
+	text-align:center;
 }#allCenter{
 	display: block;
 }
 #centerimg{
 	border: 1px solid white;
-	#margin-left:20px;
+	//margin-left:20px;
 	width:150px;
 	height:170px;
 	border-radius: 0%;
@@ -72,12 +72,12 @@ div.desc{
 	background-color: #454545;
 	height: 160px;
 	position: static;
-	margin-top:100%;
+	margin-top:50%;
 	color : white;
 	text-align: center;
 }
 #bottomimg{
-	display:inline;
+	display:inline-block;
 	margin-top: -105px;
 	 width:125px;
 	 height:150px;
