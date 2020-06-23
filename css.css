@@ -2,7 +2,7 @@
 #homeCss{
 	background-image: url("background1.jpg" );
 	background-repeat:no-repeat;
-	background-size: 1500px ;
+	background-size: cover;
 	background-attachment: fixed;
 }
 
@@ -30,13 +30,13 @@
 	right: 15%;
 	display: block;
 	font-size:3.5vw;
-	text-align:center;
+	text-align:center
 }#allCenter{
 	display: block;
 }
 #centerimg{
 	border: 1px solid white;
-	//margin-left:20px;
+	#margin-left:20px;
 	width:150px;
 	height:170px;
 	border-radius: 0%;
@@ -75,15 +75,17 @@ div.desc{
 	margin-top:50%;
 	color : white;
 	text-align: center;
+	margin-bottom: 0%;
 }
 #bottomimg{
-	display:inline-block;
+	display:inline;
 	margin-top: -105px;
 	 width:125px;
 	 height:150px;
 	 margin-left:70%;
 }
-#I1,#I2{
+#i1a,#i2a{
+	display: block;
 	font-size: 210%;
 	margin:5%;
 	margin-top:10%;
@@ -98,7 +100,7 @@ a{
 a:visited{
 	text-decoration: none;
 }
-#I1:hover, #I2:hover{
+#i1a:hover,#i2a:hover{
 	background-color:#78ab10;
 	padding:5%;
 	width:55%;
