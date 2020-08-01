@@ -11,11 +11,11 @@
 	background-image: url("meObacityGood.png");
 	background-repeat: no-repeat;
 	background-position: bottom right;
-	background-size: 600px;
+	background-size: 40%;
 	background-color: powderblue;
-	padding:36px;
-	padding-bottom: 42px;
-	margin: -8px;
+	padding:12%;
+	padding-bottom: 16%;
+	margin: -5%;
 }
 #header1{
 	position: sticky;
@@ -110,27 +110,29 @@ a:visited{
 	background-attachment:fixed ,  fixed;
 	background-position:bottom right , center;
 	background-repeat:no-repeat , no-repeat;
-	background-size:350px  , cover;
-	font-size:60px;
-	margin-bottom: -15px;
+	background-size:25%  , cover;
+	font-size:30%;
+	margin-bottom: -2%;
 	background-color: powderblue;
 	opacity: 1;
 }
 #fresh1{
 	font-size:50px;
 	background-color: tomato;
-	padding:15px;
-	margin:-6px;
-	margin-right: -5px;
+	padding:4%;
+	margin:-2%;
+	margin-right: -3%;
 }
 #fText{
-	background-color: rgba(0, 149, 237, 0.35);
-	padding-bottom:20px;
-	margin-right: 300px;
+	padding: 8%;
+	background-color: rgba(0, 149, 237, 0.85);
+	padding-bottom:5%;
+	margin-right: 40%;
+	font-size: 50px;
 
 }
 #sText{
-	padding-left: 500px;
+	padding-left: 40%;
 	
 }
 #self{
@@ -138,16 +140,16 @@ a:visited{
 	background-attachment:fixed;
 	background-position:bottom left;
 	background-repeat:no-repeat;
-	background-size:350px;
+	background-size:25%;
 	font-size:60px;
 	margin-top:-50px;
 }
 #self1{
 	font-size:50px;
 	background-color: tomato;
-	padding:15px;
-	margin:-6px;
-	margin-right:-5px;
+	padding:5%;
+	margin:-2%;
+	margin-right:-5%;
 	
 }
 	
