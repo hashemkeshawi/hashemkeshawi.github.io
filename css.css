@@ -11,7 +11,7 @@
 	background-image: url("meObacityGood.png");
 	background-repeat: no-repeat;
 	background-position: bottom right;
-	background-size: 40%;
+	background-size: 48%;
 	background-color: powderblue;
 	padding:12%;
 	padding-bottom: 16%;
@@ -110,7 +110,7 @@ a:visited{
 	background-attachment:fixed ,  fixed;
 	background-position:bottom right , center;
 	background-repeat:no-repeat , no-repeat;
-	background-size:25%  , cover;
+	background-size:30%  , cover;
 	font-size:30%;
 	margin-bottom: -2%;
 	background-color: powderblue;
@@ -140,7 +140,7 @@ a:visited{
 	background-attachment:fixed;
 	background-position:bottom left;
 	background-repeat:no-repeat;
-	background-size:25%;
+	background-size:30%;
 	font-size:60px;
 	margin-top:-50px;
 }
